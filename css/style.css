@@ -1,0 +1,136 @@
+/* GLOBAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../images/dog-things-light-01.png");
+    background-size: 230px;
+}
+#content-area {
+    width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgb(252, 250, 243);
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+}
+h1 {
+    font-family: 'Sniglet', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(49, 35, 28);
+    padding: 40px 0 5px 0;
+}
+h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    font-style: italic;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    color: #f05d77;
+    margin-bottom: 50px;
+}
+
+/* MAIN  */
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 750px;
+    margin: 0 auto;
+}
+#shiba-inu {
+    height: 490px;
+    margin: 70px 0 10px 0;
+    display: block;
+}
+#speech-bubble {
+    position: relative;
+    background-color: #80a6dd;
+    height: 170px;
+    width: 350px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+#speech-bubble::after {
+    content: "";
+    position: absolute;
+    background-color: #80a6dd;
+    width: 40px;
+    height: 30px;
+    left: 90px;
+    bottom: -15px;
+    border-bottom-right-radius: 45px;
+    transform: skew(-25deg);
+}
+#dog-quote {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: .5px;
+    line-height: 1.7em;
+    text-align: center;
+    color: #dfe0e6;
+    padding: 15px 15px;
+}
+form {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 270px;
+}
+label {
+    font-family: 'Fredoka One', cursive;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-right: 5px;
+}
+input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    padding-left: 17px;
+    width: 33px;
+    background-color: rgb(252, 250, 243);
+    border-bottom: 1px dashed #f05d77;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#submit {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #fff;
+    background-color: #cb526c;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(42, 43, 40);
+}
+#copyright {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #cbf77e;
+    padding: 20px 20px;
+}
