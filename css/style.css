@@ -100,9 +100,7 @@ input {
     width: 33px;
     background-color: rgb(252, 250, 243);
     border-bottom: 1px dashed #f05d77;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border-style: none none dashed none;
 }
 #submit {
     font-family: 'Quicksand', sans-serif;
