@@ -4,43 +4,67 @@
     margin: 0;
     padding: 0;
 }
-body {
-    background-image: url("../images/dog-things-light-01.png");
-    background-size: 230px;
-}
-#content-area {
-    width: 900px;
-    height: 100vh;
-    margin: 0 auto;
-    background-color: rgb(252, 250, 243);
-}
 
 /* HEADER */
 
 header {
     text-align: center;
+    background-color: #091235;
+    margin: 0 auto;
+}
+.banner {
+    height: 101px;
+    background-image: url("../images/dog-things-light-01.png");
+    background-size: 230px;
+}
+.banner.expanded {
+    height: 300px;
+}
+#red, #green, #blue {
+    height: 5px;
+    width: 33.33%;
+    display: inline-block;
+    transform: translate(0, -9px);
+}
+#red {
+    background-color: #cb526c;
+}
+#green {
+    background-color: #cbf77e;
+}
+#blue {
+    background-color: #80d2ef;
+}
+#logo {
+    height: 150px;
+    display: block;
+    margin: 10px auto 5px;
 }
 h1 {
     font-family: 'Sniglet', cursive;
-    font-size: 40px;
+    font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgb(49, 35, 28);
-    padding: 40px 0 5px 0;
+    color: rgb(252, 250, 243);
+    padding: 5px 0 10px 0;
 }
 h2 {
     font-family: 'Fredoka One', cursive;
-    font-size: 15px;
+    font-size: 18px;
     font-style: italic;
     text-transform: lowercase;
     letter-spacing: 3px;
     color: #f05d77;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 /* MAIN  */
 
 main {
+    background-color: rgb(252, 250, 243);
+    padding: 30px 0;
+}
+#content-area {
     display: flex;
     justify-content: space-evenly;
     width: 750px;
@@ -78,7 +102,7 @@ main {
     letter-spacing: .5px;
     line-height: 1.7em;
     text-align: center;
-    color: #dfe0e6;
+    color: #091235;
     padding: 15px 15px;
 }
 form {
@@ -86,6 +110,9 @@ form {
     text-transform: uppercase;
     text-align: right;
     margin-top: 270px;
+}
+label, input {
+    color: rgb(80, 61, 61);
 }
 label {
     font-family: 'Fredoka One', cursive;
@@ -102,6 +129,9 @@ input {
     border-bottom: 1px dashed #f05d77;
     border-style: none none dashed none;
 }
+input[type=number]::-webkit-inner-spin-button {
+    cursor: pointer;
+  }
 #submit {
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
@@ -127,7 +157,7 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
-    background-color: rgb(42, 43, 40);
+    background-color: rgb(25, 21, 21);
 }
 #copyright {
     font-family: 'Quicksand', sans-serif;
