@@ -14,5 +14,5 @@ $('#submit').on('click', function() {
 
     let yourAgeInDogYears = earlyYears + laterYears;
     
-    $('#dog-quote').html(`Wow! You're ${yourAgeInDogYears} years old in dog years, not ${yourAge}. That's old!`);
+    $('#dog-quote').fadeIn(2000).html(`Wow! You're <span id='your-result'>${yourAgeInDogYears} years old</span> in dog years, <span id='neon-underline'>not ${yourAge}</span>. <br />That's old!`);
 });
