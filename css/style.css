@@ -20,7 +20,7 @@ header {
 .banner.expanded {
     height: 300px;
 }
-#red, #green, #blue {
+#red, #green, #blue {            /* the tricolor line of spans */
     height: 5px;
     width: 33.33%;
     display: inline-block;
@@ -74,15 +74,18 @@ main {
     height: 490px;
     margin: 70px 0 10px 0;
     display: block;
+    filter: drop-shadow(2px 4px 7px tan);
 }
 #speech-bubble {
     position: relative;
     background-color: #80a6dd;
-    height: 170px;
-    width: 350px;
+    height: 230px;
+    width: 345px;
     border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    filter: drop-shadow(2px 2px 4px tan);
 }
 #speech-bubble::after {
     content: "";
@@ -97,19 +100,29 @@ main {
 }
 #dog-quote {
     font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 800;
     letter-spacing: .5px;
-    line-height: 1.7em;
+    line-height: 1.9em;
     text-align: center;
     color: #091235;
-    padding: 15px 15px;
+    padding: 35px 52px;
+}
+#neon-underline {
+    border-bottom: 2px solid #cbf77e;
+}
+#your-result {                             /* See JS file */
+    display: block;
+    font-size: 30px;
+    line-height: .8em;
+    color: #cbf77e;
+    padding-bottom: 5px;
 }
 form {
     font-weight: 400;
     text-transform: uppercase;
     text-align: right;
-    margin-top: 270px;
+    margin-top: 220px;
 }
 label, input {
     color: rgb(80, 61, 61);
