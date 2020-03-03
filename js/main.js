@@ -15,7 +15,7 @@ $('#submit').on('click', function() {
     let yourAgeInDogYears = earlyYears + laterYears;
     // This calculates your final dog age
     
-    $('#dog-quote').fadeIn(2000).html(`Wow! You're <span id='your-result'>${yourAgeInDogYears} years old</span> in dog years, <span id='neon-underline'>not ${yourAge}</span>. `);
+    $('#dog-quote').hide().fadeIn(2000).html(`Wow! You're <span id='your-result'>${yourAgeInDogYears} years old</span> in dog years, <span id='neon-underline'>not ${yourAge}</span>. `);
     //This replaces the dog's original message and tells you your age in dog years
 
     /* -- THE FOLLOWING WILL APPEND AGE-SPECIFIC FINAL SENTENCES TO THE CALCULATED DOG QUOTE -- */
