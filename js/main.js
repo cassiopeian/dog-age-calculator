@@ -31,7 +31,7 @@ $('#submit').on('click', function() {
     let randomTeen = teen[Math.floor(Math.random() * teen.length)];
     let randomYoungAdult = youngAdult[Math.floor(Math.random() * youngAdult.length)];
     let randomAdult = adult[Math.floor(Math.random() * adult.length)];
-    let randomSenior = senior[Math.random(Math.floor() * senior.length)];
+    let randomSenior = senior[Math.floor(Math.random() * senior.length)];
     // This makes it possible to randomly select phrases from each of the five arrays above
 
     if (yourAge >= 1 && yourAge <= 14) {
