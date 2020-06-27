@@ -70,11 +70,14 @@ main {
     width: 750px;
     margin: 0 auto;
 }
-#shiba-inu {
+.shiba-inu {
     height: 490px;
     margin: 70px 0 10px 0;
     display: block;
     filter: drop-shadow(2px 4px 7px tan);
+}
+.shiba-inu.mobile {
+    display: none;
 }
 #speech-bubble {
     position: relative;
@@ -144,7 +147,7 @@ input {
 }
 input[type=number]::-webkit-inner-spin-button {
     cursor: pointer;
-  }
+}
 #submit {
     font-family: 'Quicksand', sans-serif;
     font-size: 12px;
@@ -178,4 +181,54 @@ footer {
     font-weight: 400;
     color: #cbf77e;
     padding: 20px 20px;
+}
+
+/* MEDIA QUERIES  */
+
+@media only screen and (max-width: 750px) {
+    .banner {
+        height: 50px;
+        background-size: 140px;
+    }
+    #logo {
+        height: 110px;
+        margin: 5px auto;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 15px;
+        padding-bottom: 35px;
+    }
+    #content-area {
+        display: block;
+        width: auto;
+    }
+    #speech-bubble {
+        margin: 0 auto;
+    }
+    #speech-bubble::after {
+        width: 50px;
+        height: 40px;
+        left: 85px;
+        bottom: -20px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 85%;
+        transform: skew(9deg, 8deg);
+    }
+    .shiba-inu {
+        display: none;
+    }
+    .shiba-inu.mobile {
+        display: block;
+        margin: 20px auto 0;
+    }
+    form {
+        text-align: center;
+        margin-top: 45px;
+    }
+    .banner.expanded {
+        height: 200px;
+    }
 }
