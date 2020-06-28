@@ -207,6 +207,8 @@ footer {
     }
     #speech-bubble {
         margin: 0 auto;
+        height: 200px;
+        width: 315px;
     }
     #speech-bubble::after {
         width: 50px;
@@ -217,12 +219,16 @@ footer {
         border-bottom-left-radius: 85%;
         transform: skew(9deg, 8deg);
     }
+    #dog-quote {
+        font-size: 16px;
+    }
     .shiba-inu {
         display: none;
     }
     .shiba-inu.mobile {
         display: block;
         margin: 20px auto 0;
+        height: 350px;
     }
     form {
         text-align: center;
