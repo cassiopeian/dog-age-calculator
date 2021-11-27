@@ -11,6 +11,10 @@
 
  Using super-sophisticated canine math, [Dog Age Calculator](https://cassiopeian.github.io/dog-age-calculator/) converts your human age into dog years.
 
+## Features
+
+ <img src="images/read-me/example-age.png" style="width: 75%">
+
 ## Favicon 
 
  <img src="images/logo-dog-age-calculator-01.svg" style="width: 25%">
