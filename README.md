@@ -16,6 +16,11 @@
 
  <img src="images/read-me/example-age.png" style="width: 75%">
 
+ Enter your age on the dotted pink line, and click submit. The updated speech bubble will: 
+ + Reveal your dog age
+ + Remind you of your human age
+ + Generate a random quip
+
 ## Favicon 
 
  <img src="images/logo-dog-age-calculator-01.svg" style="width: 25%">
