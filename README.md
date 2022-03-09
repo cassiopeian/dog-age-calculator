@@ -44,4 +44,4 @@
 
 ## Tech Specs
 
- Dog Age Calculator was built with jQuery version 3.4.1.
+ Dog-Age Calculator was built with jQuery version 3.4.1.
