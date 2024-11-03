@@ -47,3 +47,6 @@ $('#submit').on('click', function() {
     }
     // The conditional statements above will append a random sentence that is appropriate to the relevant age group
 });
+
+// set copyright year
+$('#copyright-year').html(new Date().getFullYear());
